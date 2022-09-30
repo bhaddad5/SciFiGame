@@ -13,7 +13,6 @@ namespace Assets.GameModel.UiDisplayers
 	public class WorldMapRegionEntryBindings : MonoBehaviour
 	{
 		[SerializeField] private Button Button;
-		[SerializeField] private Image Icon;
 		[SerializeField] private TMP_Text Text;
 		[SerializeField] private GameObject NewIndicator;
 		[SerializeField] private Image TextBackground;
@@ -34,7 +33,6 @@ namespace Assets.GameModel.UiDisplayers
 
 		public void RefreshUiDisplay(MainGameManager mgm)
 		{
-			Icon.sprite = region.Icon.ToSprite();
 			Text.text = $"{region.Name}";
 			Button.gameObject.SetActive(region.IsVisible(mgm));
 			Button.transform.localPosition = ConvertMapPos(region.UiPosition);

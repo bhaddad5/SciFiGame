@@ -30,6 +30,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3306640149619622884}
   m_RootOrder: 0
@@ -138,6 +139,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6575812789767737825}
   - {fileID: 4130001163993594963}
@@ -216,6 +218,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3306640149619622884}
   m_RootOrder: 1
@@ -256,8 +259,7 @@ MonoBehaviour:
   m_text: Trophies
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ad8097f281f2bf84c8d3f1837abd88c9, type: 2}
-  m_sharedMaterial: {fileID: -7765544218037351673, guid: ad8097f281f2bf84c8d3f1837abd88c9,
-    type: 2}
+  m_sharedMaterial: {fileID: -7765544218037351673, guid: ad8097f281f2bf84c8d3f1837abd88c9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -365,6 +367,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7036101263768611223}
   m_RootOrder: 0
@@ -453,6 +456,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6575812789767737825}
   m_RootOrder: 0
@@ -529,6 +533,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8801590514086860420}
   m_Father: {fileID: 1463897214554599515}
@@ -620,6 +625,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3076417321947945856}
   - {fileID: 7304185028065297862}
@@ -737,6 +743,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7036101263768611223}
   m_Father: {fileID: 1463897214554599515}
@@ -834,6 +841,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3306640149619622884}
   m_Father: {fileID: 0}
@@ -862,6 +870,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 100
   m_TargetDisplay: 0
@@ -918,8 +927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TrophyCaseParent: {fileID: 8801590514086860420}
-  TrophyDisplayPrefab: {fileID: 128513166131530720, guid: 93fd4b05ecc168447afa88b5e14b6c00,
-    type: 3}
+  TrophyDisplayPrefab: {fileID: 128513166131530720, guid: 93fd4b05ecc168447afa88b5e14b6c00, type: 3}
 --- !u!1 &7979019124007648186
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +954,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6970481858825526976}
   m_Father: {fileID: 4130001163993594963}

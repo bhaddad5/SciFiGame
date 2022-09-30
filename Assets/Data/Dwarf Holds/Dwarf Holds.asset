@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823471634557c584f965274343f5c687, type: 3}
+  m_Name: Dwarf Holds
+  m_EditorClassIdentifier: 
+  Id: e53ca793-b94b-4f74-96da-15e0c781d49c
+  Name: Dwarf Holds
+  RegionPrefab: {fileID: 0}
+  UiPosition: {x: 0, y: 0}
+  RegionResources:
+    HasAnyResources: 0
+    HasPower: 0
+    HasSpreadsheets: 0
+    HasBrand: 0
+    HasRevanue: 0
+    HasPatents: 0
+    HasCulture: 0
+  QuickAccessLocations: []
+  Locations:
+  - {fileID: 11400000, guid: 855e7d6e9999a6e499e3790435cc5f5e, type: 2}
+  BackgroundAmbience: {fileID: 0}
+  WeekMusicTracks: []
+  WeekendMusicTracks: []

@@ -26,8 +26,7 @@ namespace Assets.GameModel
 
 		public string Name;
 
-		public Texture2D Icon;
-		public Texture2D MapImage;
+		public GameObject RegionPrefab;
 
 		public Vector2 UiPosition;
 
