@@ -56,10 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MainGameManager.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
-    <Compile Include="Assets\FPS Character.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
@@ -69,23 +67,8 @@
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Asteroid.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_NoFogUnlit.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_ColourChange.shader" />
-    <None Include="Assets\PolygonSciFiSpace\Shaders\POLYGON_Triplanar.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_SciFiPlant.shader" />
-    <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Triplanar_ObjectSpace.shader" />
-    <None Include="Assets\PolygonSciFiCity\Shaders\Polygon_Triplanar.shader" />
     <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
-    <None Include="Assets\PolygonSciFiCity\Shaders\Polygon_UVScroll.shader" />
     <None Include="Assets\StarterAssets\license.txt" />
-    <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Planet.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_Holographic_Sign.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_Skybox.shader" />
-    <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Planet_Lines.shader" />
-    <None Include="Assets\PolygonSciFiSpace\Shaders\POLYGON_SpaceShip_Rim.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_EnvTriplanar.shader" />
-    <None Include="Assets\PolygonSciFiWorlds\Shaders\SyntyStudios_Triplanar_Worlds.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
