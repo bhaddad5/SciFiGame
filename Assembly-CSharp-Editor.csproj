@@ -59,9 +59,25 @@
     <Compile Include="Assets\StarterAssets\Editor\FirstPersonStarterAssetsDeployMenu.cs" />
     <Compile Include="Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Editor\CreateCmanUi.cs" />
+    <Compile Include="Assets\Editor\CreationWindowHelpers.cs" />
+    <Compile Include="Assets\Editor\CreateMissionWindow.cs" />
+    <Compile Include="Assets\Editor\CreateRegionWindow.cs" />
+    <Compile Include="Assets\Editor\CreateTrophyWindow.cs" />
+    <Compile Include="Assets\Editor\CreateItemWindow.cs" />
+    <Compile Include="Assets\Editor\CreateStartTurnInteractionWindow.cs" />
+    <Compile Include="Assets\Editor\VideoConverter.cs" />
+    <Compile Include="Assets\Editor\CreatePolicyWindow.cs" />
+    <Compile Include="Assets\Editor\CreateInteractionWindow.cs" />
+    <Compile Include="Assets\Editor\ProfilingHelpers.cs" />
+    <Compile Include="Assets\Editor\CreateLocationWindow.cs" />
+    <Compile Include="Assets\Editor\CreateNpcWindow.cs" />
+    <Compile Include="Assets\Editor\EditorValidators.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll" />
+    <None Include="Assets\Editor\VideoConverter\NReco.VideoConverter.xml" />
+    <None Include="Assets\Editor\VideoConverter\NReco.VideoConverter.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -339,6 +355,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="NReco.VideoConverter">
+      <HintPath>Assets\Editor\VideoConverter\NReco.VideoConverter.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
